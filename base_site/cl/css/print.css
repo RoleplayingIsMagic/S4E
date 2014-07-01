@@ -1,0 +1,269 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+p {
+  widows: 3;
+  orphans: 3;
+  margin-bottom: 0.8rem;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+p + p {
+  text-indent: 1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.kaushan, .huge {
+  font-family: "Kaushan Script";
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.huge {
+  font-size: 5rem;
+}
+@media only screen and (max-width: 40rem) {
+  .huge {
+    font-size: 3.6rem;
+  }
+}
+
+.large {
+  font-size: 3rem;
+}
+
+.big {
+  font-size: 1.7rem;
+}
+
+.regular {
+  font-size: 1rem;
+}
+
+.small {
+  font-size: 0.6rem;
+}
+
+.tiny {
+  font-size: 0.36rem;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+p {
+  widows: 3;
+  orphans: 3;
+  margin-bottom: 0.8rem;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+p + p {
+  text-indent: 1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.kaushan, .huge {
+  font-family: "Kaushan Script";
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.huge {
+  font-size: 5rem;
+}
+@media only screen and (max-width: 40rem) {
+  .huge {
+    font-size: 3.6rem;
+  }
+}
+
+.large {
+  font-size: 3rem;
+}
+
+.big {
+  font-size: 1.7rem;
+}
+
+.regular {
+  font-size: 1rem;
+}
+
+.small {
+  font-size: 0.6rem;
+}
+
+.tiny {
+  font-size: 0.36rem;
+}
+
+.s4e-logo img {
+  width: 20rem;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.s4e-edition-logo img {
+  width: 25rem;
+  max-width: 100%;
+  display: block;
+  margin: 0.5rem auto;
+}
+
+.part-header {
+  display: block;
+  max-height: 70%;
+  margin: 3rem auto 0;
+  border-radius: 0.4rem;
+  page-break-after: always;
+}
+.part-header:not(:first-of-type) {
+  display: none;
+}
+.part-header + p .huge {
+  display: none;
+}
+.part-header + p + p .large {
+  display: none;
+}
+.part-header + p + p + h1 {
+  display: none;
+}
+
+h1 {
+  page-break-before: always;
+}
+
+h1, h2, h3 {
+  page-break-after: avoid;
+}
+h1 + p, h2 + p, h3 + p {
+  page-break-before: "";
+}
+
+h2 + h3 {
+  page-break-before: "";
+}
+
+@page {
+  @top-center {
+    content: "lol";
+}
+}
+
+#footer {
+  display: none;
+}
+
+#content a:link:after {
+  content: " (" attr(href) ") ";
+}
+
+.sidebar {
+  border: 1px #999999 solid;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  page-break-inside: avoid;
+}
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.block .icon {
+  display: none;
+}
+
+.kaushan, .huge {
+  font-family: "Kaushan Script";
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.huge {
+  font-size: 5rem;
+}
+
+.large {
+  font-size: 3rem;
+}
+
+.big {
+  font-size: 1.7rem;
+}
+
+.regular {
+  font-size: 1rem;
+}
+
+.small {
+  font-size: 0.6rem;
+}
+
+.tiny {
+  font-size: 0.36rem;
+}
+
+.navlinks {
+  display: none;
+}
