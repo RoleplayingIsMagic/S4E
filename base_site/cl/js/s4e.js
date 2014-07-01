@@ -73,6 +73,7 @@ $(document).ready(function() {
     $.ajaxSetup({
         cache: true,
     });
+    var new_ajax_url = '';  // holds the url we're changing to via ajax
 
     function load_page(url, push_state) {
         // console.log(url);
@@ -86,6 +87,9 @@ $(document).ready(function() {
 
         // actually load the junk
         // shamelessly stolen from https://stackoverflow.com/a/7407285
+
+        new_ajax_url = url;
+
         $.ajax({
             url: url,
             dataType: 'html',
@@ -113,7 +117,8 @@ $(document).ready(function() {
     }
 
     function ajax_fail(jqXHR, textStatus, errorThrown) {
-        message_box('Failed to load new page: ' + errorThrown)
+        // assume we're running locally, where this will fail
+        window.location = new_ajax_url;
     }
 
     // messages
