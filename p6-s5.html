@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us" manifest="./cache.appcache">
+    <head>
+        <title>Library of Edges – RiM:S4E Web Edition</title>
+
+        <meta charset='utf-8'>
+        
+        <!-- Homepage CSS -->
+        <link href="./cl/css/fonts.css" media="screen, projection, print" rel="stylesheet" type="text/css" />
+        <link href="./cl/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="./cl/css/print.css" media="print" rel="stylesheet" type="text/css" />
+
+        <script src="./cl/js/jquery-2.0.3.min.js" type="text/javascript"></script>
+        <script src="./cl/js/s4e.js" type="text/javascript"></script>
+
+        <!-- mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="RiM:S4E">
+
+        <!-- Apple startup images -->
+        <!-- iPhone -->
+        <link rel="apple-touch-startup-image"
+              media="(device-width: 320px)"
+              href="./cl/apple/apple-touch-startup-image-320x460.png">
+        <!-- iPhone (Retina) -->
+        <link rel="apple-touch-startup-image"
+              media="(device-width: 320px)
+                 and (-webkit-device-pixel-ratio: 2)"
+              href="./cl/apple/apple-touch-startup-image-640x920.png">
+        <!-- iPad (portrait) -->
+        <link rel="apple-touch-startup-image"
+              media="(device-width: 768px)
+                 and (orientation: portrait)"
+              href="./cl/apple/apple-touch-startup-image-768x1004.png">
+        <!-- iPad (landscape) -->
+        <link rel="apple-touch-startup-image"
+              media="(device-width: 768px)
+                 and (orientation: landscape)"
+              href="./cl/apple/apple-touch-startup-image-748x1024.png">
+        <!-- iPad (Retina, portrait) -->
+        <link rel="apple-touch-startup-image"
+              media="(device-width: 768px)
+                 and (orientation: portrait)
+                 and (-webkit-device-pixel-ratio: 2)"
+              href="./cl/apple/apple-touch-startup-image-1536x2008.png">
+        <!-- iPad (Retina, landscape) -->
+        <link rel="apple-touch-startup-image"
+              media="(device-width: 768px)
+                 and (orientation: landscape)
+                 and (-webkit-device-pixel-ratio: 2)"
+              href="./cl/apple/apple-touch-startup-image-1496x2048.png">
+
+        <!-- http://realfavicongenerator.net/ is the best, really -->
+        <link rel="shortcut icon" href="./cl/favicons/favicon.ico">
+        <link rel="apple-touch-icon" sizes="57x57" href="./cl/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./cl/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./cl/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./cl/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./cl/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./cl/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./cl/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./cl/favicons/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="./cl/favicons/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="./cl/favicons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="./cl/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="./cl/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="./cl/favicons/favicon-32x32.png" sizes="32x32">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="msapplication-TileImage" content="./cl/favicons/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo" content="./cl/favicons/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="./cl/favicons/mstile-150x150.png">
+        <meta name="msapplication-square310x310logo" content="./cl/favicons/mstile-310x310.png">
+        <meta name="msapplication-wide310x150logo" content="./cl/favicons/mstile-310x150.png">
+    </head>
+    <body class="s4e-rules">
+        <div id="bg-wrapper"><div></div></div>
+        <div id="container">
+            <div id="header">
+                <a class="s4e-logo" href="./index.html"><img src="./cl/img/rim-logo.svg" /></a>
+                <a class="s4e-edition-logo" href="./index.html"><img src="./cl/img/season-four-edition.svg" /></a>
+            </div>
+
+            <div id="messages"></div>
+            
+            <div id="content">
+                <link rel="prev" href="./p6-s4.html">
+                <link rel="next" href="./p7.html">
+                <link rel="single-page" href="./single.html">
+
+                <div class="toc-popup">
+                    <div>
+                        <h1>Table of Contents</h1>
+<a href="./index.html" class="toc_part">Front Cover</a>
+<a href="./p2.html" class="toc_part">Front Matter</a>
+<a href="./p3.html" class="toc_part">Introduction</a>
+<a href="./p3-s1.html" class="toc_section">Welcome to Season Four!</a>
+<a href="./p3-s2.html" class="toc_section">What You’ll Need to Play</a>
+<a href="./p3-s3.html" class="toc_section">How to Read This Book</a>
+<a href="./p3-s4.html" class="toc_section">The RiM: S4E Team</a>
+<a href="./p4.html" class="toc_part">Character Creation</a>
+<a href="./p4-s1.html" class="toc_section">D.A.S.H.</a>
+<a href="./p4-s2.html" class="toc_section">Design</a>
+<a href="./p4-s3.html" class="toc_section">Aspects</a>
+<a href="./p4-s4.html" class="toc_section">Statistics</a>
+<a href="./p4-s5.html" class="toc_section">Headway</a>
+<a href="./p4-s6.html" class="toc_section">D.A.S.H. Example</a>
+<a href="./p5.html" class="toc_part">Playing an Episode</a>
+<a href="./p5-s1.html" class="toc_section">Structure of Gameplay</a>
+<a href="./p5-s2.html" class="toc_section">Making Checks</a>
+<a href="./p5-s3.html" class="toc_section">Advantages &amp; Drawbacks</a>
+<a href="./p5-s4.html" class="toc_section">Acting in Harmony</a>
+<a href="./p5-s5.html" class="toc_section">Damage, Recovery, &amp; Sidelining</a>
+<a href="./p5-s6.html" class="toc_section">Using &amp; Restoring Valor</a>
+<a href="./p5-s7.html" class="toc_section">Ending an Episode</a>
+<a href="./p6.html" class="toc_part">Character Advancement</a>
+<a href="./p6-s1.html" class="toc_section">Learning Lessons</a>
+<a href="./p6-s2.html" class="toc_section">Experience Points</a>
+<a href="./p6-s3.html" class="toc_section">Purchasing Edges</a>
+<a href="./p6-s4.html" class="toc_section">Edge List</a>
+<a href="./p6-s5.html" class="toc_section">Library of Edges</a>
+<a href="./p7.html" class="toc_part">Magic &amp; Spellcasting</a>
+<a href="./p7-s1.html" class="toc_section">Magic Is as Magic Does</a>
+<a href="./p7-s2.html" class="toc_section">Creating Spells</a>
+<a href="./p7-s3.html" class="toc_section">Casting Spells</a>
+<a href="./p7-s4.html" class="toc_section">The Canterlot Archives</a>
+<a href="./p8.html" class="toc_part">Running an Episode</a>
+<a href="./p8-s1.html" class="toc_section">Being the Game Master</a>
+<a href="./p8-s2.html" class="toc_section">Collaborative Storytelling</a>
+<a href="./p8-s3.html" class="toc_section">Getting Things Started</a>
+<a href="./p8-s4.html" class="toc_section">Checks &amp; Difficulty Targets</a>
+<a href="./p8-s5.html" class="toc_section">Damage &amp; Sidelining</a>
+<a href="./p8-s6.html" class="toc_section">Lessons &amp; Experience</a>
+<a href="./p9.html" class="toc_part">Variant Rules</a>
+<a href="./p9-s1.html" class="toc_section">Plot Points</a>
+<a href="./p9-s2.html" class="toc_section">Equestria Girls</a>
+<a href="./p9-s3.html" class="toc_section">Paragon Ponies</a>
+<a href="./p9-s4.html" class="toc_section">Wide, Wide World</a>
+<a href="./p9-s5.html" class="toc_section">Epic Experience</a>
+<a href="./p10.html" class="toc_part">Encyclopedia Equestria</a>
+<a href="./p11.html" class="toc_part">Premade Episodes</a>
+<a href="./p11-s1.html" class="toc_section">The House of Enchanted Comics</a>
+<a href="./p11-s2.html" class="toc_section">Ars Unicornia</a>
+<a href="./p11-s3.html" class="toc_section">Mutants and Maresterminds</a>
+<a href="./p11-s4.html" class="toc_section">Whinnystrad</a>
+<a href="./p12.html" class="toc_part">Miscellaneous</a>
+<a href="./p12-s1.html" class="toc_section">Character Sheet</a>
+<a href="./p12-s2.html" class="toc_section">A Note for Developers</a>
+<a href="./p12-s3.html" class="toc_section">Updates &amp; Resources</a>
+<a href="./single.html" class="toc_part">Single Page Version (for print)</a>
+
+
+                    </div>
+                </div>
+
+                <div class="navlinks">
+                    <div>
+                        <div class="toc"><a class="show-toc" href="./index.html">Table of Contents</a></div>
+                        <div class="nav-container"><a class="nav prev enabled" href="./p6-s4.html">Previous Page</a><a class="nav next enabled" href="./p7.html">Next Page</a></div>
+                        <div class="toc"><a class="single-page" href="./single.html">Single-Page (for print)</a></div>
+                    </div>
+                </div>
+                <div class="block s4e-part-6 block-color-pink">
+                    <img class="icon" src="./cl/img/icons/s4e/pink.svg">
+                    <div>
+                        <h2 name="p6-5"> Library of Edges</h2>  
+<p>Below is the full text for all 116 Edges in S4E, listed alphabetically and grouped as applicable, with Race restrictions (including the <em>Wide, Wide World</em>&nbsp;variant Races), XP costs, purchase restrictions / prerequisites, the full rules for each Edge, and a special note for any Edges which may be purchased more than once.</p>
+ 
+ 
+<ul class="with_header"><li><strong>Arcane Talent </strong><em>[5 XP]</em></li><li><em>(Only Alicorns and Unicorns may purchase this Edge.)</em></li><li>Gain a <em>+1</em>&nbsp;bonus to checks made involving spells or magic.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Arcane Talent</strong> <em>[10 XP]</em></li><li><em>(Requires Arcane Talent to purchase.)</em></li><li><em>(Only Unicorns may purchase this Edge.)</em></li><li>Improve the Arcane Talent bonus to <em>+2</em>.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Artifice</strong> <em>[5 XP]</em></li><li>At the beginning of each Episode, without making a check, you may create a number of single-use magical items equal to your Mind score, each of which duplicates a spell with a difficulty no higher than Simple. Any character may be able to make use of these magical items, at the GM's discretion. If these items are not used by the end of the Episode in which they were created, they expire and are lost.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Artifice</strong> <em>[10 XP]</em></li><li><em>(Requires Artifice to purchase.)</em></li><li><em>(Only Alicorns, Changelings, Crystal Races, Dragons, Unicorns, and Zebras may purchase this Edge.)</em></li><li>Out of the magic items you create, you may now create one magic item which duplicates a spell with a maximum difficulty of Average. In addition, whenever one of your magic items is used, you may spend a point of Valor to keep the item while still gaining the benefits of its use (in effect, spending the Valor in place of the item).</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Artifice</strong> <em>[15 XP]</em></li><li><em>(Requires Improved Artifice to purchase.)</em></li><li><em>(Only Unicorns and Zebras may purchase this Edge.)</em></li><li>Out of the magic items you create, you may now create one magic item which duplicates a spell with a maximum difficulty of Difficult. In addition, all of your other magic items may now duplicate spells with a maximum difficulty of Average.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Bits And Bobs</strong> <em>[5 XP]</em></li><li>Once per Episode, you may declare that your character has an item pertaining to the current situation, by pure chance. Work with your GM to determine what the item is.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Blaster Caster</strong> <em>[5 XP]</em></li><li>When you cast a spell, roll <em>1d6</em>. Reduce the cost of casting the spell by the result. This effect cannot reduce the cost of casting the spell below 1.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Blaster Caster</strong> <em>[10 XP]</em></li><li><em>(Requires Blaster Caster to purchase.)</em></li><li>When you cast a spell, roll a total of <em>2d6</em>&nbsp;and choose the highest result. Reduce the cost of casting the spell by that result. This effect cannot reduce the cost of casting the spell below 1.</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Blaster Caster</strong> <em>[15 XP]</em></li><li><em>(Requires Blaster Caster to purchase.)</em></li><li>When you cast a spell, roll a total of <em>3d6</em>&nbsp;and choose the highest result. Reduce the cost of casting the spell by that result. This effect cannot reduce the cost of casting the spell below 1.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Bloodhound</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Diamond Dogs and Griffons may purchase this Edge.)</em></li><li>Gain a <em>+1</em>&nbsp;bonus to checks made involving finding and following scents.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Bloodhound</strong> <em>[10 XP]</em></li><li><em>(Requires Bloodhound to purchase.)</em></li><li><em>(Only Diamond Dogs and Griffons may purchase this Edge.)</em></li><li>Improve the Bloodhound bonus to <em>+2</em>.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Chaotic Magic</strong> <em>[5 XP]</em></li><li>Whenever you are casting a spell, after you have paid the cost of the spell, you may choose to invoke 'chaotic magic.' If you do, roll <em>1d6</em>. On a result of 2, 3, or 4, nothing happens; proceed with casting the spell as normal. On a result of 5, the cost you paid to cast the spell is immediately refunded to you. On a result of 6, your dice results for making the spell's check are automatically treated as results of 6. On a result of 1, however, the spell automatically fails--and goes haywire in an often hilariously ironic, and possibly dangerous, way (at the GM's discretion) . For example, a spell intended to create a blizzard might instead create a tiny snowstorm which only annoys the caster – or it might backfire and freeze the caster solid, at the GM's discretion.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Courage</strong> <em>[5 XP]</em></li><li>Whenever you are dealt Willpower damage, reduce the damage dealt to you by 2, to a minimum of 1 point of Willpower damage inflicted.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Courage</strong> <em>[10 XP]</em></li><li><em>(Requires Courage to purchase.)</em></li><li><em>(Only Buffalo, Donkeys, and Earth Ponies may purchase this Edge.)</em></li><li>Increase the reduction to 4, to a minimum of 1 point of Willpower damage inflicted.</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Courage</strong> <em>[15 XP]</em></li><li><em>(Requires Improved Courage to purchase.)</em></li><li><em>(Only Buffalo, Donkeys, and Earth Ponies may purchase this Edge.)</em></li><li>Increase the reduction to 6, to a minimum of 1 point of Willpower damage inflicted.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Defining Attribute</strong> <em>[5 XP]</em></li><li><em>(Requires Greater Gifted to purchase.)</em></li><li>Choose one Attribute to which you have applied the Greater Gifted Edge. Improve your score in that Attribute by 2.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Determination</strong> <em>[5 XP]</em></li><li>Increase your maximum Willpower by 5.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Determination</strong> <em>[10 XP]</em></li><li><em>(Requires Determination to purchase.)</em></li><li><em>(Only Donkeys may purchase this Edge.)</em></li><li>Increase your maximum Willpower by an additional 5 (to a total of <em>+10</em>).</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Determination</strong> <em>[15 XP]</em></li><li><em>(Requires Improved Determination to purchase.)</em></li><li><em>(Only Donkeys may purchase this Edge.)</em></li><li>Increase your maximum Willpower by an additional 5 (to a total of <em>+15</em>).</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Dig Dog</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Diamond Dogs may purchase this Edge.)</em></li><li>You are able to move by burrowing through dirt, sand, soil, snow, and other soft or granular materials (but not solid materials such as metal or stone) as easily as walking.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Dire Straits</strong> <em>[5 XP]</em></li><li>Once per Episode, when you would be Sidelined by damage, you may choose instead to remain at 1 point of Fortitude and / or Willpower, thus avoiding being Sidelined.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Doormat To Dynamo</strong><em>&nbsp;[5 XP]</em></li><li>Once per Episode, you may spend a point of Valor to gain an increasing bonus to checks you make until the end of the Scene. This bonus begins at +1 when you start this effect, and each check you make increases this bonus by +1 for the next check you make. This effect lasts until the end of the Scene, or until you achieve a Dramatic Success--either of which ends this effect.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Doormat To Dynamo</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Doormat To Dynamo to purchase.)</em></li><li>You may now use Doormat To Dynamo twice per Episode, but only once per Scene.</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Doormat To Dynamo</strong> <em>[15 XP]</em></li><li><em>(Requires Improved Doormat To Dynamo to purchase.)</em></li><li>You may now use Doormat To Dynamo three times per Episode, but only once per Scene.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Dragonheart</strong> <em>[5 XP]</em></li><li><em>(Only Dragons may purchase this Edge.)</em></li><li>You gain the ability to breathe (and / or belch) fire and smoke, and become immune to non-magical fire, lava, and other sources of extreme heat. Dragon fire, phoenix flame, and other magical sources of fire at the GM's discretion can still harm you.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Eagle Eye</strong> <em>[5 XP]</em></li><li><em>(Only Griffons may purchase this Edge.)</em></li><li>Gain a +1 bonus to checks made centering on visual observation and awareness, as long as the check is made in good lighting (such as daylight). In darkness, this Edge has no effect.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Eagle Eye</strong> <em>[10 XP]</em></li><li><em>(Requires Eagle Eye to purchase.)</em></li><li><em>(Only Griffons may purchase this Edge.)</em></li><li>Improve the Eagle Eye bonus to <em>+2</em>. The darkness-limitation on when the Eagle Eye bonus applies remains in effect.</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Eagle Eye</strong> <em>[15 XP]</em></li><li><em>(Requires Improved Eagle Eye to purchase.)</em></li><li><em>(Only Griffons may purchase this Edge.)</em></li><li>You no longer suffer the darkness-limitation on when the Eagle Eye bonus applies.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Echolocation</strong> <em>[5 XP]</em></li><li><em>(Only Bat Ponies may purchase this Edge.)</em></li><li>You are able to freely use a hypersonic form of sonar to 'see' your surroundings as easily as if you were looking with your eyes, with a few notable differences. While you are able to make out the shape of things in your surroundings, you see everything as silhouettes; you cannot discern fine visual details, such as the text on the page of a book, the color of the paint on a wall, the expression on somepony's face, and the like. You may use this sense freely even if you are blinded, but cannot use it if you are deafened. If you remain still while using this sense, you can 'see' in 360 degrees all around you.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Elementary, My Dear</strong><em>&nbsp;[5 XP]</em></li><li>Gain a <em>+1 </em>bonus to checks involving searching for clues (as defined by the GM) or looking for hidden things.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Elementary, My Dear</strong> <em>[10 XP]</em></li><li><em>(Requires Elementary, My Dear to purchase.)</em></li><li>Increase the bonus of Elementary, My Dear to <em>+2</em>.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Exotic Lore</strong> <em>[5 XP]</em></li><li>Once per Episode, when making a check for which you have no applicable Skill, you may treat the check as if you had the Skill Training Edge with an applicable Skill.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Exotic Lore</strong> <em>[10 XP]</em></li><li><em>(Only Zebras may purchase this Edge.)</em></li><li><em>(Requires Exotic Lore to purchase.)</em></li><li>You may now use Exotic Lore up to two times per Episode.</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Exotic Lore</strong> <em>[15 XP]</em></li><li><em>(Only Zebras may purchase this Edge.)</em></li><li><em>(Requires Improved Exotic Lore to purchase.)</em></li><li>You may now use Exotic Lore up to three times per Episode. In addition, you may treat the check as if you had the Improved Skill Training Edge with an applicable Skill.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Flight</strong> <em>[5 XP]</em></li><li><em>(Only Alicorns, Bat Ponies, Changelings, Dragons, Griffons, and Pegasi may purchase this Edge.)</em></li><li>You gain the ability to fly using your wings, as easily as you can walk. In addition, you may interact with clouds as if they were solid, including walking on them.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Gifted</strong> <em>[5 XP]</em></li><li><em>(You may purchase this Edge multiple times. Its effects do not stack; each time you purchase this Edge, apply it to an Attribute which it has not been previously applied to.)</em></li><li>Choose one Attribute. Improve your score in that Attribute by 1.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Gifted</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Gifted to purchase.)</em></li><li><em>(You may purchase this Edge multiple times. Its effects do not stack; each time you purchase this Edge, apply it to an Attribute which it has not been previously applied to.)</em></li><li>Improve your score in one Attribute you have improved via Gifted by an additional 1 (to a total of <em>+2</em>).</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Gifted</strong><em>&nbsp;[15 XP]</em></li><li><em>(Requires Improved Gifted to purchase.)</em></li><li><em>(You may purchase this Edge multiple times. Its effects do not stack; each time you purchase this Edge, apply it to an Attribute which it has not been previously applied to.)</em></li><li>Improve your score in one Attribute you have improved via Improved Gifted by an additional 1 (to a total of <em>+3</em>).</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Good Fortune</strong> <em>[5 XP]</em></li><li>Once per Scene, you may spend a point of Valor to allow yourself to gain one Advantage on all checks you make until the end of the Scene.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Good Fortune</strong> <em>[10 XP]</em></li><li><em>(Requires Good Fortune to purchase.)</em></li><li>You gain one additional Advantage when you use Good Fortune.</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Good Fortune</strong> <em>[15 XP]</em></li><li><em>(Requires Improved Good Fortune to purchase.)</em></li><li>You gain one additional Advantage when you use Good Fortune.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Great And Powerful</strong><em>&nbsp;[5 XP]</em></li><li>Choose one of the following Edges: Magic Trick, Sorcery, or Wizardry. Of these, you may only choose an Edge which you have previously purchased. You may cast one additional unique spell per Episode via the chosen Edge (as if your Mind score were one point higher than it actually is).</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Industrious</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Earth Ponies may purchase this Edge.)</em></li><li>Gain a <em>+1</em>&nbsp;to all checks you make when you are using a beneficial non-magical tool.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Industrious</strong> <em>[10 XP]</em></li><li><em>(Requires Industrious to purchase.)</em></li><li><em>(Only Earth Ponies may purchase this Edge.)</em></li><li>Increase the Industrious bonus to +2.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>It's All Coming Back</strong> <em>[5 XP]</em></li><li><em>(Only Crystal Races may purchase this Edge.)</em></li><li>Once per Episode, you may spend any amount of Experience Points to purchase Edges as if you were currently between Episodes.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Job Proficiency</strong><em>&nbsp;[5 XP]</em></li><li><em>(You may purchase this Edge multiple times.)</em></li><li>Work with your GM to define a job or profession your character has experience doing. Whenever you make a check to which your character's proficiency with this job would meaningfully apply, you gain one Advantage on that check.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Job Proficiency</strong> <em>[10 XP]</em></li><li><em>(Requires Job Proficiency to purchase.)</em></li><li><em>(You may purchase this Edge multiple times. Its effects do not stack; each time you purchase this Edge, apply it to a job which it has not been previously applied to.)</em></li><li>Choose one job you have gained through Job Proficiency. When you make a check involving the chosen job, you gain an additional Advantage on that check.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Landlubber</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Mermares may purchase this Edge.)</em></li><li>You are able to breathe air and water equally well, allowing you to comfortably exist in both aquatic and terrestrial environments.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Last Chance</strong><em>&nbsp;[5 XP]</em></li><li>Once per Episode, when you and all of your friends have been Sidelined, you may roll <em>1d6</em>. On a result of 1, nothing happens. On any other result, you recover from being Sidelined and are restored to full Fortitude and Willpower.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Lead Pony</strong><em>&nbsp;[5 XP]</em></li><li>When you act in Harmony with your friends, add a <em>+1</em>&nbsp;bonus to the check being made. If you have both Lead Pony and Wing Pony, you cannot apply both to the same check when you are acting in Harmony (the combination of the two Edges must come from two separate characters).</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Lead Pony</strong> <em>[10 XP]</em></li><li><em>(Requires Lead Pony to purchase.)</em></li><li>Improve the Lead Pony bonus to <em>+2</em>.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Leadership</strong> <em>[5 XP]</em></li><li>Once per Scene, as long as you are not Sidelined, you may spend a point of Valor to allow all of your Sidelined friends to recover from being Sidelined, and restore <em>2d6</em>&nbsp;Fortitude and Willpower to yourself and all of your friends.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Leadership</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Leadership to purchase.)</em></li><li><em>(Only Alicorns may purchase this Edge.)</em></li><li>Once per episode, you may prevent any and all friends from being reduced to less than one point of Fortitude and Willpower by damage. This effect lasts until the end of the Scene, but is only active while you are not Sidelined. While this effect is in place, any damage which would reduce your friends to less than one point of Fortitude or Willpower is instead dealt to you as Willpower damage.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Love Siphon</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Changelings may purchase this Edge.)</em></li><li>When a friend spends a point of Valor to restore your lost Fortitude and Willpower, you have double the normal amount restored.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Love Siphon</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Love Siphon to purchase.)</em></li><li><em>(Only Changelings may purchase this Edge.)</em></li><li>You may spend your friends' Valor as if it were yours, even if they are Sidelined or aren't nearby – but only if they consent to it.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Lucky</strong> <em>[5 XP]</em></li><li>Once per Scene, after rolling a check but before finding out the result from the GM, you may spend a point of Valor to re-roll the check.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Magic Trick</strong><em>&nbsp;[5 XP]</em></li><li>Over the course of each Episode, you may create a number of unique spells equal to your Mind score, each of which are no higher than Simple difficulty. Once a spell has been created, you may freely cast it as long as you are able to pay its cost and succeed at the check to cast it. Created spells last only until the end of an Episode; once a new Episode begins, you may create a new set of unique spells for that Episode.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Magic Trick</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Magic Trick to purchase.)</em></li><li>The maximum difficulty of spells you create with Magic Trick is now Average.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Mighty Roar</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Griffons may purchase this Edge.)</em></li><li>Once per Scene, you may spend a point of Valor to gain a bonus to a single check equal to your Heart score.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Mind Over Matter</strong> <em>[5 XP]</em></li><li><em>(Only Buffalo and Donkeys may purchase this Edge.)</em></li><li>When taking Fortitude damage, you may elect to take some or all of it as Willpower damage instead.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Musical Number</strong> <em>[5 XP]</em></li><li>Once per Episode, while in Narrative Mode, you may break into an inspiring song, restoring yourself and all friends to full Fortitude and Willpower.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Noble Soul</strong> <em>[5 XP]</em></li><li>You start each Episode with one extra point of Valor.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Noble Soul</strong> <em>[10 XP]</em></li><li><em>(Requires Noble Soul to purchase.)</em></li><li><em>(Only Buffalo and Earth Ponies may purchase this Edge.)</em></li><li>You start each Episode with a total of two extra points of Valor.</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Noble Soul</strong><em>&nbsp;[15 XP]</em></li><li><em>(Requires Improved Noble Soul to purchase.)</em></li><li><em>(Only Buffalo and Earth Ponies may purchase this Edge.)</em></li><li>You start each Episode with a total of three extra points of Valor.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Number One Assistant</strong> <em>[5 XP]</em></li><li>Work with your GM to define an assistant you gain which provides an Advantage to all checks you make in a certain type of situation, as long as it is helping you. Work with your GM to define the type of situation your assistant can help with (such as singing, herding, research, etc).</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Number One Assistant</strong> <em>[10 XP]</em></li><li><em>(Requires Number One Assistant to purchase.)</em></li><li>Your assistant now either provides an additional Advantage to checks you make in the situation it is able to help you with, or you may define a second situation in which your assistant is able to help you – providing its normal one Advantage in both situations.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Reflective Protection</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Crystal Races may purchase this Edge.)</em></li><li>Whenever you are dealt damage, you may spend one a point of Valor to take only half the damage you would normally receive, rounded up.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Reflective Protection</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Reflective Protection to purchase.)</em></li><li><em>(Only Crystal Races may purchase this Edge.)</em></li><li>You may now use Reflective Protection when a friend is dealt damage, spending a point of Valor to halve the damage they would take, rounded up.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Resilience</strong><em>&nbsp;[5 XP]</em></li><li>Whenever you are dealt Fortitude damage, reduce the damage dealt to you by 2, to a minimum of 1 point of Fortitude damage inflicted.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Resilience</strong> <em>[10 XP]</em></li><li><em>(Requires Resilience to purchase.)</em></li><li><em>(Only Buffalo, Donkeys, and Earth Ponies may purchase this Edge.)</em></li><li>Increase the reduction to 4, to a minimum of 1 point of Fortitude damage inflicted.</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Resilience</strong><em>&nbsp;[15 XP]</em></li><li><em>(Requires Improved Resilience to purchase.)</em></li><li><em>(Only Buffalo, Donkeys, and Earth Ponies may purchase this Edge.)</em></li><li>Increase the reduction to 6, to a minimum of 1 point of Fortitude damage inflicted.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Resonant Recovery</strong> <em>[5 XP]</em></li><li><em>(Only Buffalo, Crystal Races, Donkeys, and Earth Ponies may purchase this Edge.)</em></li><li>Whenever you spend a point of Valor to recover Fortitude and Willpower, you restore an extra amount of Fortitude and Willpower equal to your (Heart) score, whether you are spending the Valor on yourself or a friend.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Royal Canterlot Voice</strong> <em>[5 XP]</em></li><li>Gain a <em>+1</em>&nbsp;bonus to checks made to intimidate or otherwise persuade others with your force of will or grandeur of presence.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Royal Canterlot Voice</strong> <em>[10 XP]</em></li><li><em>(Requires Royal Canterlot Voice to purchase.)</em></li><li>Improve the Royal Canterlot Voice bonus to <em>+2</em>.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Seapony</strong> <em>[5 XP]</em></li><li><em>(Only Mermares may purchase this Edge.)</em></li><li>When your fins apply to a check you are attempting in a beneficial way, gain a <em>+1</em>&nbsp;bonus to the check.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Seapony</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Seapony to purchase.)</em></li><li><em>(Only Mermares may purchase this Edge.)</em></li><li>Increase the bonus of Seapony to <em>+2</em>.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Second Wind</strong> <em>[5 XP]</em></li><li>Once per Scene while you are Sidelined, you may spend a point of Valor to recover from being Sidelined, and restore <em>4d6</em>&nbsp;of your lost Fortitude and Willpower.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Shapeshifting</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Changelings may purchase this Edge.)</em></li><li>You may spend <em>1d6</em>&nbsp;Fortitude or Willpower (split as you choose), to change your appearance to that of another of the playable Races, or anything else of comparable size at the GM's discretion. This effect does not grant you any of the copied Race's strengths, weaknesses, or abilities; you remain a member of your original Race. You may choose to take on the form of a specific individual or a generic member of the chosen Race. Reverting back to your true form does not carry any cost, and you revert back to your true form upon being Sidelined. While you are in a form which is not your true form, your capabilities and powers may reasonably restricted at the GM's discretion based on that form's physical limitations (for example, if the form does not have wings, you cannot fly – even if you have an Edge which allows you to).</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Share And Care</strong><em>&nbsp;[5 XP]</em></li><li>Once per Episode, you may spend any amount of your remaining Fortitude and / or Willpower to restore points of Fortitude and / or Willpower to one friend. The type of points restored must match the points spent; Fortitude restores Fortitude, and Willpower restores Willpower. You may Sideline yourself if you spend either type of your points down to zero.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Show Stopper</strong> <em>[5 XP]</em></li><li>Once per Scene, you may spend a point of Valor to call for a commanding halt, preventing all characters within earshot (adversaries and friends alike) from taking any aggressive actions for one round.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Signature Move</strong><em>&nbsp;[5 XP]</em></li><li>Work with your GM to define a special power or maneuver you can perform. Once per Episode, by spending a point of Valor, you may perform it.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Skill Training</strong><em>&nbsp;[5 XP]</em></li><li><em>(You may purchase this Edge multiple times.)</em></li><li>Work with your GM to create a Skill your character knows. Whenever you make a check to which your character's training with this Skill would meaningfully apply, you roll <em>1d6</em>&nbsp;in addition to the normal <em>2d6</em>&nbsp;you are entitled to, and choose the two highest results.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Skill Training</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Skill Training to purchase.)</em></li><li><em>(You may purchase this Edge multiple times. Its effects do not stack; each time you purchase this Edge, apply it to a Skill which it has not been previously applied to.)</em></li><li>Choose one Skill you have gained through Skill Training. When you make a check involving the chosen Skill, you roll an additional <em>1d6</em>&nbsp;(for a total of <em>2d6</em>&nbsp;extra).</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Skill Training</strong> <em>[15 XP]</em></li><li><em>(Requires Improved Skill Training to purchase.)</em></li><li><em>(You may purchase this Edge multiple times. Its effects do not stack; each time you purchase this Edge, apply it to a Skill which it has not been previously applied to.)</em></li><li>Choose one Skill you have applied the Improved Skill Training Edge to. When you make a check involving the chosen Skill, you gain a<em>&nbsp;+1</em>&nbsp;bonus to the check total.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Skill Mastery</strong> <em>[5 XP]</em></li><li><em>(Requires Greater Skill Training to purchase.)</em></li><li>Choose one Skill you have applied the Greater Skill Training Edge to. When you make a check involving the chosen Skill, you gain a <em>+2</em>&nbsp;bonus to the check total.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Sorcery</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Changelings, Dragons, and Zebras may purchase this Edge.)</em></li><li>Over the course of each Episode, you may create a number of unique spells equal to your Mind score, each of which are no higher than Average difficulty. Once a spell has been created, you may freely cast it as long as you are able to pay its cost and succeed at the check to cast it. Created spells last only until the end of an Episode; once a new Episode begins, you may create a new set of unique spells for that Episode.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Sorcery</strong> <em>[10 XP]</em></li><li><em>(Requires Sorcery to purchase.)</em></li><li><em>(Only Changelings, Dragons, and Zebras may purchase this Edge.)</em></li><li>The maximum difficulty of spells you create with Sorcery is now Difficult.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Special Purpose</strong> <em>[5 XP]</em></li><li><em>(Only Alicorns, Bat Ponies, Earth Ponies, Pegasi, Unicorns, and Zebras may purchase this Edge.)</em></li><li>Work with your GM to define your Special Purpose (and a Cutie Mark, if applicable). Any time your Special Purpose applies to a check, you ignore any Drawbacks you might otherwise apply to that check.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Speedster</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Alicorns, Bat Ponies, Changelings, Griffons, Mermares, and Pegasi may purchase this Edge.)</em></li><li>Once per round, you may spend a point of Valor to act twice in that round.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Spirited</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Buffalo, Donkeys, Earth Ponies, and Griffons may purchase this Edge.)</em></li><li>When you spend Valor to restore Fortitude and Willpower, you gain the effect of having spent two points; you may split these points between yourself and your friends as normal for having spent two points of Valor.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Squirrel-Speak</strong><em>&nbsp;[5 XP]</em></li><li>You are able to speak with, and understand, animals.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Sticks And Stones</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Buffalo and Donkeys may purchase this Edge.)</em></li><li>When taking Willpower damage, you may elect to take some or all of it as Fortitude damage instead.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Tactical Espionage Action</strong> <em>[5 XP]</em></li><li><em>(Only Bat Ponies and Changelings may purchase this Edge.)</em></li><li>When you are hiding, sneaking, or otherwise non-magically concealing yourself, you gain a <em>+1 </em>bonus to your check.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Tactical Espionage Action</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Tactical Espionage Action to purchase.)</em></li><li><em>(Only Bat Ponies and Changelings may purchase this Edge.)</em></li><li>Increase the Tactical Espionage Action bonus to <em>+2</em>.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Talented</strong><em>&nbsp;[5 XP]</em></li><li>Work with your GM to choose a descriptive term which pertains to a unique inherent talent or area of innate ability your character has (but not a skill or area of training); when it meaningfully applies to a check you're attempting, it provides a <em>+1</em>&nbsp;bonus to the check. No more than one talent may apply to a check. Examples of possible talents might be: Adaptable, Agile, Charismatic, Creative, Fast, Sensitive, Smart, Strong, Tireless, Tough, Wary, Willful, etc. The GM has final approval over any talent, as well as whether or not it meaningfully applies to a check.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Talented</strong> <em>[10 XP]</em></li><li><em>(Requires Talented to purchase.)</em></li><li>Choose one additional talent, or choose one talent you already have with a <em>+1</em>&nbsp;bonus and increase its bonus to <em>+2</em>.</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Talented</strong><em>&nbsp;[15 XP]</em></li><li><em>(Requires Improved Talented to purchase.)</em></li><li>Choose one additional talent, or choose one talent you already have with a <em>+1 </em>bonus and increase its bonus to +2, or choose one talent you already have with a <em>+2 </em>bonus and increase its bonus to <em>+3.</em></li></ul>
+<hr>
+ 
+ 
+<ul class="with_header"><li><strong>Telekinesis</strong> <em>[5 XP]</em></li><li><em>(Only Alicorns, Changelings, and Unicorns may purchase this Edge.)</em></li><li>You may magically lift and manipulate a single light object by making an appropriate check.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Telekinesis</strong> <em>[10 XP]</em></li><li><em>(Requires Telekinesis to purchase.)</em></li><li><em>(Only Alicorns, Changelings, and Unicorns may purchase this Edge.)</em></li><li>You may now use Telekinesis on a small number of light objects simultaneously, or a single average weight object, by making an appropriate check, at the GM's discretion.</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Telekinesis</strong> <em>[15 XP]</em></li><li><em>(Requires Improved Telekinesis to purchase.)</em></li><li><em>(Only Unicorns may purchase this Edge.)</em></li><li>You may now use Telekinesis on a large number of light or average weight objects simultaneously, or a single heavy object, by making an appropriate check, at the GM's discretion.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>True, True Friend</strong><em>&nbsp;[5 XP]</em></li><li>Once per Scene, when a friend would be dealt damage, you may choose to take the damage for them.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Valorous</strong><em>&nbsp;[5 XP]</em></li><li>Whenever you spend a point of Valor for any reason, roll <em>1d6</em>. On a result of 6, you gain the effects of having spent the point as normal, but you retain the point of Valor.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Valorous</strong> <em>[10 XP]</em></li><li><em>(Requires Valorous to purchase.)</em></li><li>When you use the Valor Edge, you now retain spent Valor on a result of 5 as well as 6.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Vitality</strong><em>&nbsp;[5 XP]</em></li><li>Increase your maximum Fortitude by 5.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Vitality</strong> <em>[10 XP]</em></li><li><em>(Requires Vitality to purchase.)</em></li><li><em>(Only Buffalo may purchase this Edge.)</em></li><li>Increase your maximum Fortitude by an additional 5 (to a total of <em>+10</em>).</li></ul>
+ 
+<ul class="with_header"><li><strong>Greater Vitality</strong> <em>[15 XP]</em></li><li><em>(Requires Improved Vitality to purchase.)</em></li><li><em>(Only Buffalo may purchase this Edge.)</em></li><li>Increase your maximum Fortitude by an additional 5 (to a total of <em>+15</em>).</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Weather Patrol</strong> <em>[5 XP]</em></li><li><em>(Only Pegasi may purchase this Edge.)</em></li><li>You may manipulate currently-existing weather conditions by making an appropriate check at the GM's discretion.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Weather Patrol</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Weather Patrol to purchase.)</em></li><li><em>(Only Pegasi may purchase this Edge.)</em></li><li>You may now also create weather conditions by making an appropriate check at the GM's discretion.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Wild Talent</strong> <em>[5 XP]</em></li><li>When you achieve a dramatic success at casting a spell, half the cost (rounded down) which you originally paid to cast the spell is restored to you. For example, if you paid 4 Fortitude and 2 Willpower, and achieved a dramatic success, you would regain 2 Fortitude and 1 Willpower.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Wing Pony</strong><em>&nbsp;[5 XP]</em></li><li>When you act in Harmony with your friends, add a <em>+1</em>&nbsp;bonus to the check being made. If you have both Lead Pony and Wing Pony, you cannot apply both to the same check when you are acting in Harmony (the combination of the two Edges must come from two separate characters).</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Wing Pony</strong> <em>[10 XP]</em></li><li><em>(Requires Wing Pony to purchase.)</em></li><li>Improve the Wing Pony bonus to <em>+2</em>.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Wing Power</strong><em>&nbsp;[5 XP]</em></li><li><em>(Only Alicorns, Bat Ponies, Changelings, Dragons, Griffons, and Pegasi may purchase this Edge.)</em></li><li>When your wings apply to a check you are attempting in a beneficial way, gain a <em>+1</em>&nbsp;bonus to the check.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Wing Power</strong> <em>[10 XP]</em></li><li><em>(Requires Wing Power to purchase.)</em></li><li><em>(Only Alicorns, Bat Ponies, Changelings, Dragons, Griffons, and Pegasi may purchase this Edge.)</em></li><li>Increase the bonus of Wing Power to <em>+2</em>.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Wizardry</strong> <em>[5 XP]</em></li><li><em>(Only Alicorns and Unicorns may purchase this Edge.)</em></li><li>Over the course of each Episode, you may create a number of unique spells equal to your Mind score, each of which are no higher than Difficult difficulty. Once a spell has been created, you may freely cast it as long as you are able to pay its cost and succeed at the check to cast it. Created spells last only until the end of an Episode; once a new Episode begins, you may create a new set of unique spells for that Episode.</li></ul>
+ 
+<ul class="with_header"><li><strong>Improved Wizardry</strong><em>&nbsp;[10 XP]</em></li><li><em>(Requires Wizardry to purchase.)</em></li><li><em>(Only Alicorns and Unicorns may purchase this Edge.)</em></li><li>The maximum difficulty of spells you create with Wizardry is now Daunting.</li></ul>
+<hr>
+ 
+<ul class="with_header"><li><strong>Wondrous Power</strong> <em>[5 XP]</em></li><li><em>(Only Unicorns may purchase this Edge.)</em></li><li>Once per Episode when casting a spell, if you would be Sidelined by paying the cost of the spell, you may instead remain at 1 Fortitude and 1 Willpower and avoid being Sidelined. You must pay as much of the cost of the spell as you are able to, however; neither Fortitude or Willpower can remain above 1 after using this Edge.</li></ul>
+ 
+                    </div>
+                </div>
+                <div class="navlinks">
+                    <div>
+                        <div class="toc"><a class="show-toc" href="./index.html">Table of Contents</a></div>
+                        <div class="nav-container"><a class="nav prev enabled" href="./p6-s4.html">Previous Page</a><a class="nav next enabled" href="./p7.html">Next Page</a></div>
+                        <div class="toc"><a class="single-page" href="./single.html">Single-Page (for print)</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer">
+                © Roleplaying is Magic development team
+                &ndash;
+                <a href="mailto:TallTailTellsTales@gmail.com"><i class="icon-mail"></i>Contact</a>
+                &ndash;
+                <a href="http://twitter.com/mlprim"><i class="icon-twitter"></i>Twitter</a>
+            </div>
+        </div>
+    </body>
+</html>
